@@ -10,6 +10,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+ARC
+
 ## Installation
 
 UIViewController+Dismissable is available through [CocoaPods](http://cocoapods.org). To install
@@ -19,7 +21,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Xingruo Liu, xingruo.liu@cns-inc.com
+Xingruo Liu, xingruo.liu@gmail.com
 
 ## License
 
