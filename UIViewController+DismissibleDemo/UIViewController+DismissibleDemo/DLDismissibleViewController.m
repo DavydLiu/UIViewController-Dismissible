@@ -1,21 +1,21 @@
 //
 //  DLViewController.m
-//  UIViewController+DismissableDemo
+//  UIViewController+DismissibleDemo
 //
 //  Created by Liu, Xingruo on 6/16/14.
 //  Copyright (c) 2014 Xingruo Liu. All rights reserved.
 //
 
-#import "DLDismissableViewController.h"
+#import "DLDismissibleViewController.h"
 
 // Import the head file
-#import "UIViewController+Dismissable.h"
+#import "UIViewController+Dismissible.h"
 
-@interface DLDismissableViewController ()
+@interface DLDismissibleViewController ()
 
 @end
 
-@implementation DLDismissableViewController
+@implementation DLDismissibleViewController
 
 // Add gesture recognizer to window when view appeared
 - (void)viewDidAppear:(BOOL)animated

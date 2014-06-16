@@ -1,6 +1,6 @@
 //
 //  DLAppDelegate.m
-//  UIViewController+DismissableDemo
+//  UIViewController+DismissibleDemo
 //
 //  Created by Liu, Xingruo on 6/16/14.
 //  Copyright (c) 2014 Xingruo Liu. All rights reserved.

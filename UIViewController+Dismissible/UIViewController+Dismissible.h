@@ -1,5 +1,5 @@
 //
-//  UIViewController+Dismissable.h
+//  UIViewController+Dismissible.h
 //  MESC Quiz
 //
 //  Created by Liu, Xingruo on 6/12/14.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
-@interface UIViewController (Dismissable)
+@interface UIViewController (Dismissible)
 
 @property (nonatomic) UITapGestureRecognizer *tapBehindGesture;
 

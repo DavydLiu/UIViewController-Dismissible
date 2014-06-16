@@ -14,14 +14,14 @@
 		D1155380194F428800ADAEBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D115537F194F428800ADAEBA /* main.m */; };
 		D1155384194F428800ADAEBA /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1155383194F428800ADAEBA /* DLAppDelegate.m */; };
 		D1155387194F428800ADAEBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1155385194F428800ADAEBA /* Main.storyboard */; };
-		D115538A194F428800ADAEBA /* DLDismissableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1155389194F428800ADAEBA /* DLDismissableViewController.m */; };
+		D115538A194F428800ADAEBA /* DLDismissibleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1155389194F428800ADAEBA /* DLDismissibleViewController.m */; };
 		D115538C194F428800ADAEBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D115538B194F428800ADAEBA /* Images.xcassets */; };
 		D1155393194F428800ADAEBA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1155392194F428800ADAEBA /* XCTest.framework */; };
 		D1155394194F428800ADAEBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1155373194F428800ADAEBA /* Foundation.framework */; };
 		D1155395194F428800ADAEBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1155377194F428800ADAEBA /* UIKit.framework */; };
 		D115539D194F428800ADAEBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D115539B194F428800ADAEBA /* InfoPlist.strings */; };
-		D115539F194F428800ADAEBA /* UIViewController_DismissableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D115539E194F428800ADAEBA /* UIViewController_DismissableDemoTests.m */; };
-		D11553AB194F44CE00ADAEBA /* UIViewController+Dismissable.m in Sources */ = {isa = PBXBuildFile; fileRef = D11553AA194F44CE00ADAEBA /* UIViewController+Dismissable.m */; };
+		D115539F194F428800ADAEBA /* UIViewController_DismissibleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D115539E194F428800ADAEBA /* UIViewController_DismissibleDemoTests.m */; };
+		D11553AB194F44CE00ADAEBA /* UIViewController+Dismissible.m in Sources */ = {isa = PBXBuildFile; fileRef = D11553AA194F44CE00ADAEBA /* UIViewController+Dismissible.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,32 +30,32 @@
 			containerPortal = D1155368194F428800ADAEBA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D115536F194F428800ADAEBA;
-			remoteInfo = "UIViewController+DismissableDemo";
+			remoteInfo = "UIViewController+DismissibleDemo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D1155370194F428800ADAEBA /* UIViewController+DismissableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIViewController+DismissableDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1155370194F428800ADAEBA /* UIViewController+DismissibleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIViewController+DismissibleDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1155373194F428800ADAEBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1155375194F428800ADAEBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D1155377194F428800ADAEBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D115537B194F428800ADAEBA /* UIViewController+DismissableDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+DismissableDemo-Info.plist"; sourceTree = "<group>"; };
+		D115537B194F428800ADAEBA /* UIViewController+DismissibleDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+DismissibleDemo-Info.plist"; sourceTree = "<group>"; };
 		D115537D194F428800ADAEBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D115537F194F428800ADAEBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1155381194F428800ADAEBA /* UIViewController+DismissableDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissableDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D1155381194F428800ADAEBA /* UIViewController+DismissibleDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissibleDemo-Prefix.pch"; sourceTree = "<group>"; };
 		D1155382194F428800ADAEBA /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
 		D1155383194F428800ADAEBA /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
 		D1155386194F428800ADAEBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1155388194F428800ADAEBA /* DLDismissableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLDismissableViewController.h; sourceTree = "<group>"; };
-		D1155389194F428800ADAEBA /* DLDismissableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLDismissableViewController.m; sourceTree = "<group>"; };
+		D1155388194F428800ADAEBA /* DLDismissibleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLDismissibleViewController.h; sourceTree = "<group>"; };
+		D1155389194F428800ADAEBA /* DLDismissibleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLDismissibleViewController.m; sourceTree = "<group>"; };
 		D115538B194F428800ADAEBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D1155391194F428800ADAEBA /* UIViewController+DismissableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIViewController+DismissableDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1155391194F428800ADAEBA /* UIViewController+DismissibleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIViewController+DismissibleDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1155392194F428800ADAEBA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		D115539A194F428800ADAEBA /* UIViewController+DismissableDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+DismissableDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D115539A194F428800ADAEBA /* UIViewController+DismissibleDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+DismissibleDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D115539C194F428800ADAEBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D115539E194F428800ADAEBA /* UIViewController_DismissableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController_DismissableDemoTests.m; sourceTree = "<group>"; };
-		D11553A9194F44CE00ADAEBA /* UIViewController+Dismissable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dismissable.h"; sourceTree = "<group>"; };
-		D11553AA194F44CE00ADAEBA /* UIViewController+Dismissable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dismissable.m"; sourceTree = "<group>"; };
+		D115539E194F428800ADAEBA /* UIViewController_DismissibleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController_DismissibleDemoTests.m; sourceTree = "<group>"; };
+		D11553A9194F44CE00ADAEBA /* UIViewController+Dismissible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dismissible.h"; sourceTree = "<group>"; };
+		D11553AA194F44CE00ADAEBA /* UIViewController+Dismissible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dismissible.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 		D1155367194F428800ADAEBA = {
 			isa = PBXGroup;
 			children = (
-				D1155379194F428800ADAEBA /* UIViewController+DismissableDemo */,
-				D1155398194F428800ADAEBA /* UIViewController+DismissableDemoTests */,
+				D1155379194F428800ADAEBA /* UIViewController+DismissibleDemo */,
+				D1155398194F428800ADAEBA /* UIViewController+DismissibleDemoTests */,
 				D1155372194F428800ADAEBA /* Frameworks */,
 				D1155371194F428800ADAEBA /* Products */,
 			);
@@ -95,8 +95,8 @@
 		D1155371194F428800ADAEBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1155370194F428800ADAEBA /* UIViewController+DismissableDemo.app */,
-				D1155391194F428800ADAEBA /* UIViewController+DismissableDemoTests.xctest */,
+				D1155370194F428800ADAEBA /* UIViewController+DismissibleDemo.app */,
+				D1155391194F428800ADAEBA /* UIViewController+DismissibleDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,66 +112,66 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1155379194F428800ADAEBA /* UIViewController+DismissableDemo */ = {
+		D1155379194F428800ADAEBA /* UIViewController+DismissibleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D11553A8194F44CE00ADAEBA /* UIViewController+Dismissable */,
+				D11553A8194F44CE00ADAEBA /* UIViewController+Dismissible */,
 				D1155382194F428800ADAEBA /* DLAppDelegate.h */,
 				D1155383194F428800ADAEBA /* DLAppDelegate.m */,
 				D1155385194F428800ADAEBA /* Main.storyboard */,
-				D1155388194F428800ADAEBA /* DLDismissableViewController.h */,
-				D1155389194F428800ADAEBA /* DLDismissableViewController.m */,
+				D1155388194F428800ADAEBA /* DLDismissibleViewController.h */,
+				D1155389194F428800ADAEBA /* DLDismissibleViewController.m */,
 				D115538B194F428800ADAEBA /* Images.xcassets */,
 				D115537A194F428800ADAEBA /* Supporting Files */,
 			);
-			path = "UIViewController+DismissableDemo";
+			path = "UIViewController+DismissibleDemo";
 			sourceTree = "<group>";
 		};
 		D115537A194F428800ADAEBA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D115537B194F428800ADAEBA /* UIViewController+DismissableDemo-Info.plist */,
+				D115537B194F428800ADAEBA /* UIViewController+DismissibleDemo-Info.plist */,
 				D115537C194F428800ADAEBA /* InfoPlist.strings */,
 				D115537F194F428800ADAEBA /* main.m */,
-				D1155381194F428800ADAEBA /* UIViewController+DismissableDemo-Prefix.pch */,
+				D1155381194F428800ADAEBA /* UIViewController+DismissibleDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D1155398194F428800ADAEBA /* UIViewController+DismissableDemoTests */ = {
+		D1155398194F428800ADAEBA /* UIViewController+DismissibleDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D115539E194F428800ADAEBA /* UIViewController_DismissableDemoTests.m */,
+				D115539E194F428800ADAEBA /* UIViewController_DismissibleDemoTests.m */,
 				D1155399194F428800ADAEBA /* Supporting Files */,
 			);
-			path = "UIViewController+DismissableDemoTests";
+			path = "UIViewController+DismissibleDemoTests";
 			sourceTree = "<group>";
 		};
 		D1155399194F428800ADAEBA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D115539A194F428800ADAEBA /* UIViewController+DismissableDemoTests-Info.plist */,
+				D115539A194F428800ADAEBA /* UIViewController+DismissibleDemoTests-Info.plist */,
 				D115539B194F428800ADAEBA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D11553A8194F44CE00ADAEBA /* UIViewController+Dismissable */ = {
+		D11553A8194F44CE00ADAEBA /* UIViewController+Dismissible */ = {
 			isa = PBXGroup;
 			children = (
-				D11553A9194F44CE00ADAEBA /* UIViewController+Dismissable.h */,
-				D11553AA194F44CE00ADAEBA /* UIViewController+Dismissable.m */,
+				D11553A9194F44CE00ADAEBA /* UIViewController+Dismissible.h */,
+				D11553AA194F44CE00ADAEBA /* UIViewController+Dismissible.m */,
 			);
-			name = "UIViewController+Dismissable";
-			path = "../../UIViewController+Dismissable";
+			name = "UIViewController+Dismissible";
+			path = "../../UIViewController+Dismissible";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D115536F194F428800ADAEBA /* UIViewController+DismissableDemo */ = {
+		D115536F194F428800ADAEBA /* UIViewController+DismissibleDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D11553A2194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissableDemo" */;
+			buildConfigurationList = D11553A2194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissibleDemo" */;
 			buildPhases = (
 				D115536C194F428800ADAEBA /* Sources */,
 				D115536D194F428800ADAEBA /* Frameworks */,
@@ -181,14 +181,14 @@
 			);
 			dependencies = (
 			);
-			name = "UIViewController+DismissableDemo";
-			productName = "UIViewController+DismissableDemo";
-			productReference = D1155370194F428800ADAEBA /* UIViewController+DismissableDemo.app */;
+			name = "UIViewController+DismissibleDemo";
+			productName = "UIViewController+DismissibleDemo";
+			productReference = D1155370194F428800ADAEBA /* UIViewController+DismissibleDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1155390194F428800ADAEBA /* UIViewController+DismissableDemoTests */ = {
+		D1155390194F428800ADAEBA /* UIViewController+DismissibleDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D11553A5194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissableDemoTests" */;
+			buildConfigurationList = D11553A5194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissibleDemoTests" */;
 			buildPhases = (
 				D115538D194F428800ADAEBA /* Sources */,
 				D115538E194F428800ADAEBA /* Frameworks */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				D1155397194F428800ADAEBA /* PBXTargetDependency */,
 			);
-			name = "UIViewController+DismissableDemoTests";
-			productName = "UIViewController+DismissableDemoTests";
-			productReference = D1155391194F428800ADAEBA /* UIViewController+DismissableDemoTests.xctest */;
+			name = "UIViewController+DismissibleDemoTests";
+			productName = "UIViewController+DismissibleDemoTests";
+			productReference = D1155391194F428800ADAEBA /* UIViewController+DismissibleDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D115536B194F428800ADAEBA /* Build configuration list for PBXProject "UIViewController+DismissableDemo" */;
+			buildConfigurationList = D115536B194F428800ADAEBA /* Build configuration list for PBXProject "UIViewController+DismissibleDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D115536F194F428800ADAEBA /* UIViewController+DismissableDemo */,
-				D1155390194F428800ADAEBA /* UIViewController+DismissableDemoTests */,
+				D115536F194F428800ADAEBA /* UIViewController+DismissibleDemo */,
+				D1155390194F428800ADAEBA /* UIViewController+DismissibleDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,8 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1155384194F428800ADAEBA /* DLAppDelegate.m in Sources */,
-				D11553AB194F44CE00ADAEBA /* UIViewController+Dismissable.m in Sources */,
-				D115538A194F428800ADAEBA /* DLDismissableViewController.m in Sources */,
+				D11553AB194F44CE00ADAEBA /* UIViewController+Dismissible.m in Sources */,
+				D115538A194F428800ADAEBA /* DLDismissibleViewController.m in Sources */,
 				D1155380194F428800ADAEBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D115539F194F428800ADAEBA /* UIViewController_DismissableDemoTests.m in Sources */,
+				D115539F194F428800ADAEBA /* UIViewController_DismissibleDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 /* Begin PBXTargetDependency section */
 		D1155397194F428800ADAEBA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D115536F194F428800ADAEBA /* UIViewController+DismissableDemo */;
+			target = D115536F194F428800ADAEBA /* UIViewController+DismissibleDemo */;
 			targetProxy = D1155396194F428800ADAEBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -395,10 +395,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIViewController+DismissableDemo/UIViewController+DismissableDemo-Prefix.pch";
-				INFOPLIST_FILE = "UIViewController+DismissableDemo/UIViewController+DismissableDemo-Info.plist";
+				GCC_PREFIX_HEADER = "UIViewController+DismissibleDemo/UIViewController+DismissibleDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController+DismissibleDemo/UIViewController+DismissibleDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIViewController+DismissibleDemo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,10 +409,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIViewController+DismissableDemo/UIViewController+DismissableDemo-Prefix.pch";
-				INFOPLIST_FILE = "UIViewController+DismissableDemo/UIViewController+DismissableDemo-Info.plist";
+				GCC_PREFIX_HEADER = "UIViewController+DismissibleDemo/UIViewController+DismissibleDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController+DismissibleDemo/UIViewController+DismissibleDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIViewController+DismissibleDemo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -420,20 +420,20 @@
 		D11553A6194F428800ADAEBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewController+DismissableDemo.app/UIViewController+DismissableDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewController+DismissibleDemo.app/UIViewController+DismissibleDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIViewController+DismissableDemo/UIViewController+DismissableDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "UIViewController+DismissibleDemo/UIViewController+DismissibleDemo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UIViewController+DismissableDemoTests/UIViewController+DismissableDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "UIViewController+DismissibleDemoTests/UIViewController+DismissibleDemoTests-Info.plist";
+				PRODUCT_NAME = "UIViewController+DismissibleDemoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -442,16 +442,16 @@
 		D11553A7194F428800ADAEBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewController+DismissableDemo.app/UIViewController+DismissableDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIViewController+DismissibleDemo.app/UIViewController+DismissibleDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIViewController+DismissableDemo/UIViewController+DismissableDemo-Prefix.pch";
-				INFOPLIST_FILE = "UIViewController+DismissableDemoTests/UIViewController+DismissableDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UIViewController+DismissibleDemo/UIViewController+DismissibleDemo-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController+DismissibleDemoTests/UIViewController+DismissibleDemoTests-Info.plist";
+				PRODUCT_NAME = "UIViewController+DismissibleDemoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,7 +460,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D115536B194F428800ADAEBA /* Build configuration list for PBXProject "UIViewController+DismissableDemo" */ = {
+		D115536B194F428800ADAEBA /* Build configuration list for PBXProject "UIViewController+DismissibleDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D11553A0194F428800ADAEBA /* Debug */,
@@ -469,21 +469,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D11553A2194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissableDemo" */ = {
+		D11553A2194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissibleDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D11553A3194F428800ADAEBA /* Debug */,
 				D11553A4194F428800ADAEBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D11553A5194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissableDemoTests" */ = {
+		D11553A5194F428800ADAEBA /* Build configuration list for PBXNativeTarget "UIViewController+DismissibleDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D11553A6194F428800ADAEBA /* Debug */,
 				D11553A7194F428800ADAEBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

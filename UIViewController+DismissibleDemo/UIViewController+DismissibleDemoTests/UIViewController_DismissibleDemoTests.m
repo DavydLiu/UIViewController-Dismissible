@@ -1,6 +1,6 @@
 //
-//  UIViewController_DismissableDemoTests.m
-//  UIViewController+DismissableDemoTests
+//  UIViewController_DismissibleDemoTests.m
+//  UIViewController+DismissibleDemoTests
 //
 //  Created by Liu, Xingruo on 6/16/14.
 //  Copyright (c) 2014 Xingruo Liu. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface UIViewController_DismissableDemoTests : XCTestCase
+@interface UIViewController_DismissibleDemoTests : XCTestCase
 
 @end
 
-@implementation UIViewController_DismissableDemoTests
+@implementation UIViewController_DismissibleDemoTests
 
 - (void)setUp
 {

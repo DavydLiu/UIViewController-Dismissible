@@ -5,7 +5,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = "UIViewController+Dismissable"
+  s.name             = "UIViewController+Dismissible"
   s.version          = File.read('VERSION')
   s.summary          = "Let any modally presented view to be able to be dismissed by touching outside of it."
   s.description      = <<-DESC
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
                       [self.view.window removeGestureRecognizer:self.tapBehindGesture];
                       in viewWillDisappear:
                        DESC
-  s.homepage         = "https://github.com/DavydLiu/UIViewController-Dismissable"
+  s.homepage         = "https://github.com/DavydLiu/UIViewController-Dismissible"
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Xingruo Liu" => "xingruo.liu@gmail.com" }
-  s.source           = { :git => "https://github.com/DavydLiu/UIViewController-Dismissable.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DavydLiu/UIViewController-Dismissible.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/DavydLiu'
 
   s.platform     = :ios, '7.0'
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'UIViewController+Dismissable/'
+  s.source_files = 'UIViewController+Dismissible/'
   # s.resources = 'Assets/*.png'
 
   # s.ios.exclude_files = 'Classes/osx'

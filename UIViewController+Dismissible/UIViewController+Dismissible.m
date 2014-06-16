@@ -1,16 +1,16 @@
 //
-//  UIViewController+Dismissable.m
+//  UIViewController+Dismissible.m
 //  MESC Quiz
 //
 //  Created by Liu, Xingruo on 6/12/14.
 //  Copyright (c) 2014 CNSI. All rights reserved.
 //
 
-#import "UIViewController+Dismissable.h"
+#import "UIViewController+Dismissible.h"
 
 NSString const *tapBehindGestureKey = @"tapBehindGestureKey";
 
-@implementation UIViewController (Dismissable)
+@implementation UIViewController (Dismissible)
 
 - (void)setTapBehindGesture:(UITapGestureRecognizer *)tapBehindGesture
 {
