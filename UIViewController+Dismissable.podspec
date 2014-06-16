@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "UIViewController+Dismissable"
-  s.version          = '0.1.0'
+  s.version          = File.read('VERSION')
   s.summary          = "Let any modally presented view to be able to be dismissed by touching outside of it."
   s.description      = <<-DESC
                       Use it by including head file and adding 
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'UIViewController+Dismissable/*'
+  s.source_files = 'UIViewController+Dismissable/'
   # s.resources = 'Assets/*.png'
 
   # s.ios.exclude_files = 'Classes/osx'
