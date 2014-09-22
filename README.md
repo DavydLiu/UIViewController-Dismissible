@@ -19,6 +19,26 @@ it, simply add the following line to your Podfile:
 
     pod "UIViewController+Dismissible"
 
+## Usage
+
+    #import "UIViewController+Dismissalbe.h"
+
+	- (void)viewDidAppear:(BOOL)animated
+	{
+		[super viewDidAppear:animated];
+		
+		// add gesture recognizer to UIWindow
+		[self.view.window addGestureRecognizer:self.tapBehindGesture];
+	}
+
+	- (void)viewWillDisappear:(BOOL)animated
+	{
+		[super viewWillDisappear:animated];
+
+		// remove gesture recognizer from UIWindow
+		[self.view.window removeGestureRecognizer:self.tapBehindGesture];
+	}
+
 ## Author
 
 Xingruo Liu, xingruo.liu@gmail.com
