@@ -23,7 +23,8 @@ NSString const *tapBehindGestureKey = @"tapBehindGestureKey";
         UITapGestureRecognizer *tapBehindGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(touchedBehind:)];
         [tapBehindGesture setNumberOfTapsRequired:1];
         //So the user can still interact with controls in the modal view
-        [tapBehindGesture setCancelsTouchesInView:NO];
+        tapBehindGesture.cancelsTouchesInView = NO;
+        tapBehindGesture.delegate = self;
         [self setTapBehindGesture:tapBehindGesture];
     }
     UITapGestureRecognizer *tapGestureRecognizer = objc_getAssociatedObject(self, &tapBehindGestureKey);
@@ -46,14 +47,21 @@ NSString const *tapBehindGestureKey = @"tapBehindGestureKey";
 - (void)touchedBehind:(UITapGestureRecognizer *)sender
 {
     if (sender.state == UIGestureRecognizerStateEnded) {
-        //Passing nil gives us coordinates in the window
-        CGPoint location = [sender locationInView:nil];
+        UIView *rootView = self.view.window.rootViewController.view;
+        CGPoint location = [sender locationInView:rootView];
         
         //Convert tap location into the local view's coordinate system. If outside, dismiss the view.
-        if (![self.view pointInside:[self.view convertPoint:location fromView:self.view.window] withEvent:nil])  {
+        if (![self.view pointInside:[self.view convertPoint:location fromView:rootView] withEvent:nil])  {
             [self dismiss];
         }
     }
+}
+
+#pragma mark - UIGestureRecognizerDelegate
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
+{
+    return YES;
 }
 
 @end

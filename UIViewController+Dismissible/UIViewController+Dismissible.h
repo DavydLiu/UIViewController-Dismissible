@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
 
-@interface UIViewController (Dismissible)
+@interface UIViewController (Dismissible) <UIGestureRecognizerDelegate>
 
 @property (nonatomic) UITapGestureRecognizer *tapBehindGesture;
 
