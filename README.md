@@ -8,18 +8,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
-ARC
-
-## Installation
-
-UIViewController+Dismissible is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-    pod "UIViewController+Dismissible"
-
-## Usage
+To use this Pod, add and remove touchBehind gesture recognizer as follow:
 
     #import "UIViewController+Dismissalbe.h"
 
@@ -38,6 +27,19 @@ it, simply add the following line to your Podfile:
 		// remove gesture recognizer from UIWindow
 		[self.view.window removeGestureRecognizer:self.tapBehindGesture];
 	}
+
+
+## Requirements
+
+ARC
+
+## Installation
+
+UIViewController+Dismissible is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+    pod "UIViewController+Dismissible"
+
 
 ## Author
 
