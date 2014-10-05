@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 To use this Pod, add and remove touchBehind gesture recognizer as follow:
 
-    #import "UIViewController+Dismissalbe.h"
+    #import "UIViewController+Dismissible.h"
 
 	- (void)viewDidAppear:(BOOL)animated
 	{
